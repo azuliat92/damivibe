@@ -240,9 +240,10 @@ form.sign-in-form {
 }
 
 .btn.transparent:hover {
-color:#04befe;
-background:white;
-  }
+  color: #04befe;
+  background: white;
+}
+
 .btn.transparent {
   margin: 0;
   background: transparent;
@@ -313,7 +314,7 @@ background:white;
 
 /* Footer */
 footer {
-  
+
   background-color: rgb(137, 43, 226);
   padding-top: 50px;
   padding-left: 97px;
@@ -461,6 +462,25 @@ footer ul li:hover {
     top: 5%;
     transform: translate(-50%, 0);
   }
+
+  /* Footer */
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .footer1 p {
+    margin: 1rem auto;
+
+  }
+
+  .footer-socials {
+    justify-content: center;
+  }
+
+  /* End Footer */
+
 }
 
 @media (max-width: 570px) {
@@ -489,4 +509,24 @@ footer ul li:hover {
     bottom: 28%;
     left: 50%;
   }
+
+  /* Footer */
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .footer1 p {
+    margin: 1rem auto;
+
+  }
+
+  .footer-socials {
+    justify-content: center;
+  }
+
+  /* End Footer */
+
+
 }
